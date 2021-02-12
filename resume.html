@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Resume</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<script>
+		$( function() {
+			$( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+			$( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+		} );
+	</script>
+	<style>
+		body, .ui-widget { font-family: Arial, Helvetica, sans-serif; }
+		.ui-widget-header { border: 0; background: none; }
+		.ui-tabs-vertical { width: 55em; }
+		.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+		.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; margin: 0 -1px .2em 0; }
+		.ui-tabs-vertical .ui-tabs-nav li a { display:block; width: 10em; }
+		.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { margin-bottom: .2em; }
+		.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+	</style>
+</head>
+
+<body>
+	<div>
+		<span style="font-size: 40px; font-weight: bold; color: #333399;">Jessica Sweeney</span><br>
+		<span style="font-size: 20px; font-weight: bold; color: black;">Website Developer</span>
+		<hr style="background-color: #ccc;">
+	</div>
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-1">Work Experience</a></li>
+			<li><a href="#tabs-2">Education</a></li>
+			<li><a href="#tabs-3">Skills & Contact</a></li>
+		</ul>
+		<div id="tabs-1">
+			<h2>Work Experience</h2>
+
+			<b>ColdFusion Developer at Luxury Brand Holdings</b><br>
+			Cranston, RI<br>
+			<i>September 2018 - Present</i>
+			<ul>
+				<li>Created reports for internal users to share product, scheduling, and call center data using ColdFusion programming and Oracle databases</li>
+				<li>Integrated internal applications with data from APIs provided by companies such as UPS and Channel Advisor, working with representatives at these companies to determine the best solutions for LBH’s needs</li>
+				<li>Worked with other third-party companies to download flat file data and import into Oracle</li>
+				<li>Created and updated several in-house ColdFusion applications for internal users, including the call center scheduler, product data forms, and photo department task and time management</li>
+				<li>Managed updates for the external vendor data entry form. Currently working on a new version of this form for both internal and external entry which should make it more dynamic and user-friendly.</li>
+			</ul>
+
+			<b>Software Developer at Falvey Insurance Group</b><br>
+			North Kingstown, RI<br>
+			<i>May 2017 - August 2018</i>
+			<ul>
+				<li>Maintained internal insurance form websites using ColdFusion and Microsoft SQL</li>
+				<li>Updated and implemented front-end functionality and design using JavaScript, jQuery, and CSS</li>
+				<li>Created dynamic form sections using AJAX</li>
+				<li>Provided user support for current systems</li>
+			</ul>
+
+			<b>Senior Website Developer at American Power Conversion / Schneider Electric</b><br>
+			West Kingston, RI<br>
+			<i>May 2014 - March 2017</i>
+			<ul>
+				<li>Worked with an Agile team using Scrum methodology</li>
+				<li>Developed the corporate website using the SDL Tridion content management system</li>
+				<li>Automated continuous integration processes using Jenkins and Windows Powershell scripts</li>
+				<li>Maintained code in several Git repositories using Bitbucket and the Sourcetree application</li>
+				<li>Managed the packaging and deploying of code to the test environment using SDL Content Porter, Jenkins and XL Deploy</li>
+				<li>Developed CSS and JavaScript code, which included the implementation of a new header</li>
+				<li>Assisted in Quality Assurance testing, received some training on Selenium</li>
+			</ul>
+			<i>April 2000 - May 2014</i>
+			<ul>
+				<li>Led development on a project to implement the Mura content management system on the website – including research, learning the system and its API, and training other developers</li>
+				<li>Assisted and trained junior developers on a regular basis</li>
+				<li>Coded pages and applications for a large corporation using such programming languages as HTML, ColdFusion, JavaScript, jQuery, XML, and CSS</li>
+				<li>Wrote stored procedures and created tables using Microsoft SQL Server</li>
+				<li>Consumed web services using XML and wrote web services using ColdFusion Components</li>
+				<li>Created XSL templates to display data from XML files</li>
+				<li>Designed application elements before development using UML Class and Sequence diagrams</li>
+				<li>Performed some quality assurance testing and pushed code live before a formal QA process was put into place</li>
+				<li>Used Microsoft Visual Source Safe as version control for all files for several years. Later, switched to Subversion.</li>
+				<li>Used Lotus Notes databases to manipulate data on the web</li>
+				<li>Designed the look and feel of many of the earlier applications, while conforming to web team design standards</li>
+				<li>Worked with team to create applications using the MVC (model-view-controller) method and object-oriented programming</li>
+				<li>Created applications using the ColdFusion Fusebox method</li>
+				<li>Received training on UML, XML, SQL, Flash, ColdFusion, and JavaScript</li>
+			</ul>
+
+			<b>Website Developer at Netsense Internet Solutions</b><br>
+			Wakefield, RI<br>
+			<i>August 1998 - April 2000</i>
+			<ul>
+				<li>Programmed several websites in HTML, many containing JavaScript</li>
+				<li>Designed graphics for many of these sites using Adobe Photoshop</li>
+				<li>Designed and programmed several database-driven sites using Cold Fusion technology, MS Access databases, and SQL; some experience with Oracle databases</li>
+				<li>Uploaded/moved sites between servers using Windows NT 4.0 Workstation</li>
+				<li>Provided technical support -- troubleshooting dial-up connection problems</li>
+				<li>Registered sites with popular search engines</li>
+			</ul>
+		</div>
+		<div id="tabs-2">
+			<h2>Education</h2>
+			<p><b>University of Rhode Island</b> (1994-1998)</p>
+			Bachelor's Degree, Political Science and Government<br><br>
+			Activities and Societies: College Democrats, Phi Kappa Phi Honor Society, Phi Beta Kappa Honor Society, Pi Sigma Alpha Political Science Honor Society, Phi Eta Sigma Freshman Honor Society, Golden Key National Honor Society
+			<ul>
+				<li>Completed Calculus courses: MTH 141 (with AP credits) and MTH 142</li>
+				<li>Completed HPR 319: The Technology and Social Impact of the Internet, Spring 1997</li>
+				<li>Completed Honors project in Advanced Web Design and Implementation, Spring 1998</li>
+				<li>Gathered requirements, coded and installed a new homepage for the University of Rhode Island Economics department</li>
+			</ul>
+			<p><b>Additional Training - Coursera</b> (2019-2020)</p>
+			<ul>
+				<li>Introduction to Front-end Development with ReactJS, completed August 2020</li>
+				<li>Introduction to Genomic Technologies, completed May 2019</li>
+				<li>Data Science Math Skills, completed October 2019</li>
+			</ul>
+		</div>
+		<div id="tabs-3">
+			<h2>Skills</h2>
+			<ul>
+				<li>ColdFusion</li>
+				<li>jQuery</li>
+				<li>JavaScript</li>
+				<li>AJAX</li>
+				<li>SQL</li>
+				<li>CSS</li>
+				<li>Razor (C#)</li>
+				<li>CMS development</li>
+			</ul>
+
+			<h2>Contact</h2>
+			Email: <a href="mailto:jlosweeney@gmail.com">jlosweeney@gmail.com</a><br>
+			Linked In: <a href="https://www.linkedin.com/in/josweeney" target="_blank">https://www.linkedin.com/in/josweeney</a><br>
+			Website: <a href="http://www.jessicasjournal.net" target="_blank">Jessica's Journal</a>
+		</div>
+	</div>
+</body>
+</html>
